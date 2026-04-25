@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
-import Header from './components/Header'
-import Main from './components/Main'
+import Header from './components/Header.jsx'
+import Main from './components/Main.jsx'
 
 function App() {
     const [quantity, setQuantity] = useState(0)
